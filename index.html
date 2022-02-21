@@ -7,21 +7,24 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Bellybutton Biodiversity</title>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="static/css/style.css">
 </head>
 
 <body>
 
-  <div class="container">
+  <div class="container" >
     <div class="row">
-      <div class="col-md-12 jumbotron text-center">
-        <h1>Belly Button Biodiversity Dashboard</h1>
-        <p>Use the interactive charts below to explore the dataset</p>
+      <div class="col-sm-12 jumbotron text-center">
+        <h1 class="text-center" style="color: white;text-shadow: black 0.1em 0.1em 0.1em">Belly Button Biodiversity Dashboard</h1>
+        <p class="text-success text-center" style="color: white;font-weight:bold">Use the interactive charts below to explore the dataset</p>
+        <p class="text-success text-center" style="color: white;font-weight:bold">when a sample ID is selected from the dropdown menu, the bar chart, bubble chart and gauge chart are all updated according to the ID that is selected. The visualization will help the volunteers to identify the 10 bacterial species in their belly buttons. If the Company identifies a species as a candidate to manufacture synthetic beef, the volunteers will be able to identify whether that species is found in their navel.
+</p>
       </div>
     </div>
     <div class="row">
       <div class="col-md-2">
-        <div class="well">
-          <h5>Test Subject ID No.:</h5>
+        <div class="well" style="background-color:lavender">
+          <h5 style="color: green;font-weight:bold">Test Subject ID No.:</h5>
           <!-- <select id="selDataset"></select> -->
           <select id="selDataset" onchange="optionChanged(this.value)"></select>
         </div>
@@ -29,26 +32,28 @@
           <div class="panel-heading">
             <h3 class="panel-title">Demographic Info</h3>
           </div>
-          <div id="sample-metadata" class="panel-body"></div>
+          <div id="sample-metadata" class="panel-body" style="background-color:lavender"></div>
         </div>
       </div>
-      <div class="col-md-5">
+      <div class="col-sm-5">
         <div id="bar"></div>
       </div>
-      <div class="col-md-5">
+      <div class="col-sm-5">
         <div id="gauge"></div>
       </div>
     </div>
+
     <div class="row">
-      <div class="col-md-12">
-        <div id="bubble"></div>
+      <div class="col-sm-12">
+        <div id="bubble"</div>
       </div>
     </div>
+
   </div>
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.5.0/d3.js"></script>
   <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
-  <script src="static/js/plots.js"></script>
+  <script src="static/js/charts.js"></script>
 
 </body>
 
