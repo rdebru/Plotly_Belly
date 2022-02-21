@@ -10,11 +10,14 @@ The visualization will help the volunteers to identify the 10 bacterial species 
 
 ### Purpose 
 
-	* Create a Horizontal Bar Chart
-	* Create a Bubble Chart
-	* Create a Gauge Chart
-	* Customize the Dashboard
-	* deploy the project to github pages
+* The purpose of the assigment is to
+ 
+- Create a Horizontal Bar Chart
+- Create a Bubble Chart
+- Create a Gauge Chart
+- Customize the Dashboard
+- deploy the project to github pages
+
 
 * Also customized the dashboard
 * Added an image to the jumbotron.
